@@ -1,0 +1,35 @@
+vectors:
+-vector<int> v;
+-v.push_back();
+-for(auto x:v){
+	cout<<x<<endl;
+ }
+-v.size()	-v.back()=v[v.size()-1]
+-v.pop_back()
+
+set:
+The basic operations of sets are element insertion, search and removal.
+-set<int> s;
+-s.insert(3);	s.count(2);(retun 0 or 1)	s.erase(2);//remove
+-An important property of sets is that all their elements are distinct.
+
+muliset:
+multiset<int> s;
+s.insert(5);
+s.insert(5);
+s.insert(5);
+cout << s.count(5) << "\n"; // 3
+s.erase(5);
+cout << s.count(5) << "\n"; // 0
+s.erase(s.find(5));
+cout << s.count(5) << "\n"; // 2
+
+map:(dic in python)
+map<string,int> m;
+m["monkey"] = 4;
+m["banana"] = 3;
+m["harpsichord"] = 9;
+cout << m["banana"] << "\n"; // 3
+cout << m["aybabtu"] << "\n"; // 0 the key is automatically added to the map with a default value 0.
+The function count checks if a key exists in a map:m.count(key);
+
