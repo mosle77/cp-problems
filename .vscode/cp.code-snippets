@@ -1,0 +1,41 @@
+{
+	"C++ Snippet": {
+		"prefix": "cp",
+		"body": [
+		"#include <complex>",
+		"#include <queue>",
+		"#include <set>",
+		"#include <unordered_set>",
+		"#include <list>",
+		"#include <chrono>",
+		"#include <random>",
+		"#include <iostream>",
+		"#include <algorithm>",
+		"#include <cmath>",
+		"#include <string>",
+		"#include <vector>",
+		"#include <map>",
+		"#include <unordered_map>",
+		"#include <stack>",
+		"#include <iomanip>",
+		"#include <fstream>",
+		" ",
+		"using namespace std;",
+		"//href:  ",
+		" ",
+		"",
+		"void solve(){",
+		"}",
+		"int main()",
+		"{",
+		"int t;",
+		" cin >> t;",
+		" for(int it=1;it<=t;it++) {",
+		"",
+		" }",
+		" return 0;",
+		"}"
+		],
+		"description": "C++ Snippet"
+	}
+}
