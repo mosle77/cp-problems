@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
-using namespace std;
 
+using namespace std;
+//href:https://codeforces.com/contest/1560/problem/A
 int main()
 {
 

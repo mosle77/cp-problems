@@ -15,7 +15,7 @@
 #include <stack>
 #include <iomanip>
 #include <fstream>
-
+//href:https://codeforces.com/group/YSHJEwaJhs/contest/346175/problem/A
 using namespace std;
 
 int main()
@@ -42,7 +42,7 @@ int main()
             {
                 cout << 'U';
             }
-                }
+        }
         cout << endl;
     }
     return 0;

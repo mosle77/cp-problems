@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <string>
 #include <cstring>
-
+//href:https://www.hackerrank.com/challenges/attribute-parser/problem
 using namespace std;
 
 int main()

@@ -1,3 +1,4 @@
+# href:https://codeforces.com/group/YSHJEwaJhs/contest/345774/problem/A
 n = int(input())
 s = str(input())
 m = s[0]

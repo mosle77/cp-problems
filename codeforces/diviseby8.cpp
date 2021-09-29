@@ -1,3 +1,4 @@
+
 #include <complex>
 #include <queue>
 #include <set>
@@ -15,7 +16,7 @@
 #include <stack>
 #include <iomanip>
 #include <fstream>
-
+//href:https://codeforces.com/group/YSHJEwaJhs/contest/346175/problem/C
 using namespace std;
 int divise(string s)
 {

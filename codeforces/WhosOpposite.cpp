@@ -6,7 +6,7 @@
 #include <string>
 #include <cstring>
 using namespace std;
-
+// href:https://codeforces.com/contest/1560/problem/B
 int main()
 {
     int n, a, b, c;

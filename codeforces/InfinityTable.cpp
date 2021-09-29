@@ -7,6 +7,7 @@
 #include <cstring>
 using namespace std;
 
+// href:https://codeforces.com/contest/1560/problem/C
 int main()
 {
 
