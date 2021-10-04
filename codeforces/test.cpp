@@ -19,9 +19,12 @@
 using namespace std;
 //href:  
  
+
+void solve(){
+}
 int main()
 {
-    int t;
+int t;
  cin >> t;
  for(int it=1;it<=t;it++) {
 
