@@ -26,35 +26,39 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t, n;
+    int t, n, min, x;
+    long long max = 100000000000;
+    char c;
     cin >> t;
+    int v;
+    bool b;
     for (int it = 1; it <= t; it++)
     {
         cin >> n;
-        int t[n], s[n];
-        int m = 0;
+        max = 100000000000;
+        min = 0;
+        b = 1;
+        // v=vector<int>(n);
         for (int i = 0; i < n; i++)
         {
-            cin >> t[i] >> s[i];
-        }
-        for (int i = 0; i < n - 2; i++)
-        {
-            for (int j = i; j < n - 1; j++)
+            cin >> v >> c;
+            // cout << v << c;
+            if (c == '-')
             {
-                for (int k = j; k < n; k++)
+                if (max > v - 1 +  25+min)
                 {
-                    if (s[i] != s[j] && s[i] != s[k] && s[j] != s[k])
-                    {
-                        m += 1;
-                    }
-                    else if (t[i] != t[j] && t[i] != t[k] && t[j] != t[k])
-                    {
-                        m += 1;
-                    }
+                    max = v - 1 + 25+min;
                 }
+                // b = 0;
+            }
+            else
+            {
+
+                min += v +  25;
+                // b = 1;
             }
         }
-        cout << m << '\n';
+        cout << max - min + 1 << '\n';
     }
     return 0;
 }

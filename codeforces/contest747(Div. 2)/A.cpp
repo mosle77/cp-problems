@@ -9,7 +9,6 @@
 #include <algorithm>
 #include <cmath>
 #include <string>
-#include <cstring>
 #include <vector>
 #include <map>
 #include <unordered_map>
@@ -19,34 +18,21 @@
 
 using namespace std;
 //href:
-void solve(int n){
-    int m;
-    if(n%11==0){
-        cout<<"YES"<<'\n';
-    }
-    else {
-        m=n%11;
-        n=n-m*111;
-        if(n%11==0 && n>=0){
-            cout<<"YES"<<'\n';
-        }
-        else{
-            cout<<"NO"<<'\n';
-        }
-    }
+
+void solve()
+{
 }
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t,n;
-    
+    int t;
+    long long n;
     cin >> t;
-    string s;
     for (int i = 1; i <= t; i++)
     {
         cin>>n;
-        solve(n);
+        cout<<1-n<<' '<<n<<'\n';
     }
     return 0;
 }
